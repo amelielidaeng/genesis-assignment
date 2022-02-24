@@ -1,0 +1,1 @@
+*{max-width:1360px}main{height:3500px;background-color:#cacaca}.menu{display:grid;grid-template-columns:repeat(8,1fr);grid-template-rows:repeat(2,1fr);width:100%}.menu .menu__logo{grid-column:2/4;grid-row:2/3}.menu .menu__list{font-family:"Mulish",sans-serif;font-size:16}.footer{display:grid}
