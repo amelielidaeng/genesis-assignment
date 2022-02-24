@@ -37,16 +37,15 @@
     .card-one {
         max-width: 635px;
         width: 100%;
-        height: 251px;
-        background-color: pink; 
+        height: 251px; 
     }
 
     .card-two {
-        max-width: 207px;
+        max-width: 300px;
         height: 34px;
-        background-color: pink;
         display: flex;
-        align-self: flex-end; //how do i make a partial border?
-        transform: translate(-15px);
+        align-content: flex-end; 
+        //needs to be moved to the left and down
+        //how do i make a partial border?
     }
 }
