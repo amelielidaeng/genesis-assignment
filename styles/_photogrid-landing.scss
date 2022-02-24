@@ -4,9 +4,11 @@
     height: 1960px;
     align-items: center;
 
+    /*I struggled like crazy but for the life of me 
+    I could not get this grid structured without pixels*/
     &__container {
         display: grid;
-        grid-template-columns: repeat(9, 120px);
+        grid-template-columns: repeat(9, 120px); 
         grid-template-rows: repeat(32, 60px);
         column-gap: 3px;
         row-gap: 2px;
