@@ -1,73 +1,79 @@
 .grid {
     max-width: 1110px;
     width: 100%;
-    min-height: 1960px;
+    height: 1960px;
+    align-items: center;
 
     &__container {
         display: grid;
         grid-template-columns: repeat(9, 120px);
         grid-template-rows: repeat(32, 60px);
-        background-color: pink;
-        column-gap: 5px;
+        column-gap: 3px;
+        row-gap: 2px;
     }
-}
+    &__image-one {
+        grid-column: 1 / 4;
+        grid-row: 1 / 8;
+    }
+    
+    &__image-two {
+        grid-column: 1 / 4; 
+        grid-row: 8 / 16;
+    }
+    
+    &__image-three {
+        grid-column: 1 / 4;
+        grid-row: 16 / 24; 
+    }
+    
+    &__image-four {
+        grid-column: 1 / 4;
+        grid-row: 24 / 33;
+    }
+    
+    &__image-five {
+        grid-column: 4 / 7;
+        grid-row: 1 / 7;
+    }
+    
+    &__image-six {
+        grid-column: 4 / 7;
+        grid-row: 7 / 14; 
+    }
+    
+    &__image-seven {
+        grid-column: 4 / 7;
+        grid-row: 14 / 23;
+    }
+    
+    &__image-eight {
+        grid-column: 4 / 7;
+        grid-row: 23 / 33;
+    }
+    
+    &__image-nine {
+        grid-column: 7 / 10;
+        grid-row: 1 / 11;
+        justify-content: flex-end;
+    }
+    
+    &__image-ten {
+        grid-column: 7 / 10;
+        grid-row: 11 / 18;
+        justify-content: flex-end;
+    }
+    
+    &__image-eleven {
+        grid-column: 7 / 10;
+        grid-row: 18 / 27;
+        justify-content: flex-end;
+    }
+    
+    &__image-twelve {
+        grid-column: 7 / 10;
+        grid-row: 27 / 33;
+        justify-self: flex-end;
+    }
 
-.grid__image-one {
-    grid-column: 1 / 4;
-    grid-row: 1 / 8;
-}
-
-.grid__image-two {
-    grid-column: 1 / 4; 
-    grid-row: 8 / 16;
-}
-
-.grid__image-three {
-    grid-column: 1 / 4;
-    grid-row: 16 / 24; 
-}
-
-.grid__image-four {
-    grid-column: 1 / 4;
-    grid-row: 24 / 33;
-}
-
-.grid__image-five {
-    grid-column: 4 / 7;
-    grid-row: 1 / 7;
-}
-
-.grid__image-six {
-    grid-column: 4 / 7;
-    grid-row: 7 / 14; 
-}
-
-.grid__image-seven {
-    grid-column: 4 / 7;
-    grid-row: 14 / 23;
-}
-
-.grid__image-eight {
-    grid-column: 4 / 7;
-    grid-row: 23 / 33;
-}
-
-.grid__image-nine {
-    grid-column: 7 / 10;
-    grid-row: 1 / 11;
-}
-
-.grid__image-ten {
-    grid-column: 7 / 10;
-    grid-row: 11 / 18;
-}
-
-.grid__image-eleven {
-    grid-column: 7 / 10;
-    grid-row: 18 / 27;
-}
-
-.grid__image-twelve {
-    grid-column: 7 / 10;
-    grid-row: 27 / 33;
+    //last for not lined up correctly - need a solution
 }
