@@ -30,6 +30,10 @@
         color: #111111;
     }
 
+    &__color {
+        color: #4A4FF2;
+    }
+
     .card-one {
         max-width: 635px;
         width: 100%;
@@ -38,12 +42,11 @@
     }
 
     .card-two {
-        max-width: fit-content;
+        max-width: 207px;
         height: 34px;
         background-color: pink;
         display: flex;
-        align-self: flex-end
+        align-self: flex-end; //how do i make a partial border?
+        transform: translate(-15px);
     }
-
-
 }

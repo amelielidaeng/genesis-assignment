@@ -1,19 +1,20 @@
 * {
     max-width: 1360px;
+    margin: auto;
 }
 
 main {
-    height: 300px;
-    background-color: #cacaca; /*just for now - to see better*/
+    height: 3200px;
 }
 
 .menu {
+    max-width: 1110px;
     display: grid;
     grid-template-columns: repeat(24, 1fr);
     grid-template-rows: repeat(5, 1fr);
 
     &__logo {
-        grid-column: 4;
+        grid-column: 1;
         grid-row: 3;
     }
 
@@ -24,24 +25,25 @@ main {
     }
 
     &__projects {
-        grid-column: 18;
+        grid-column: 22;
         grid-row: 3/4;
     }
 
     &__contact {
-        grid-column: 20;
+        grid-column-end: 25;
         grid-row: 3/4;
     }
 }
 
 
 .footer {
+    max-width: 1110px;
     display: grid;
     grid-template-columns: repeat(24, 1fr);
     grid-template-rows: repeat(5, 1fr);
 
     &__logo {
-        grid-column: 4;
+        grid-column: 1;
         grid-row: 3;
     }
     &__link { 
@@ -52,27 +54,27 @@ main {
     }
 
     &__projects {
-        grid-column: 14;
+        grid-column: 18;
         grid-row: 3;
     }
 
     &__contact {
-        grid-column: 16;
-        grid-row: 3;
-    }
-
-    &__dribble {
-        grid-column: 19;
-        grid-row: 3;
-    }
-
-    &__instagram {
         grid-column: 20;
         grid-row: 3;
     }
 
+    &__dribble {
+        grid-column: 23;
+        grid-row: 3;
+    }
+
+    &__instagram {
+        grid-column: 24;
+        grid-row: 3;
+    }
+
     &__twitter {
-        grid-column: 21;
+        grid-column: 25;
         grid-row: 3;
     }
 }
