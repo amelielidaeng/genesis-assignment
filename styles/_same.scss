@@ -78,9 +78,11 @@ main {
 }
 
 
-/*Sass-ify these - but how?*/
+/*Sass-ify these - but how?
+Also add some hover thing - it's boring now*/
 a:link {
     text-decoration: none;
+    color: black;
 }
 
 a:visited {
