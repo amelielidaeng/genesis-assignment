@@ -4,7 +4,7 @@
 
 main {
     height: 300px;
-    background-color: #cacaca;
+    background-color: #cacaca; /*just for now - to see better*/
 }
 
 .menu {
@@ -22,17 +22,18 @@ main {
         font-size: 18px;
         font-weight: bold;
     }
+
+    &__projects {
+        grid-column: 18;
+        grid-row: 3/4;
+    }
+
+    &__contact {
+        grid-column: 20;
+        grid-row: 3/4;
+    }
 }
 
-.link-1 {
-    grid-column: 18;
-    grid-row: 3/4;
-}
-
-.link-2 {
-    grid-column: 20;
-    grid-row: 3/4;
-}
 
 .footer {
     display: grid;
@@ -49,29 +50,33 @@ main {
         font-weight: bold;
         grid-row: 3;
     }
+
+    &__projects {
+        grid-column: 14;
+        grid-row: 3;
+    }
+
+    &__contact {
+        grid-column: 16;
+        grid-row: 3;
+    }
+
     &__dribble {
         grid-column: 19;
         grid-row: 3;
     }
+
     &__instagram {
         grid-column: 20;
         grid-row: 3;
     }
+
     &__twitter {
         grid-column: 21;
         grid-row: 3;
     }
 }
 
-.link-a {
-    grid-column: 14;
-    grid-row: 3;
-}
-
-.link-b {
-    grid-column: 16;
-    grid-row: 3;
-}
 
 /*Sass-ify these - but how?*/
 a:link {
