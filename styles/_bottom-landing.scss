@@ -1,33 +1,40 @@
-.quote { /*why is the box not centered?*/
-    max-width: 1360px; /*content centered when max-width full but not when 1110px */
+.box {
+    display: flex;
+    justify-content: center;
+    max-width: 1110px; 
     width: 100%;
     min-height: 106px;
-    margin: 20px;
-    display: flex;
-    justify-content: center; 
 
-    &__text {
-        font-family: "Mulish", sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        line-height: 38px;
-        max-width: 635px;
+    .quote { 
+        margin: 20px;
+        display: flex;
+        justify-content: center; 
+    
+        &__text {
+            font-family: "Mulish", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 38px;
+            max-width: 635px;
+        }
+    
+        &__list {
+            list-style: none;
+            font-family: "Mulish", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 23px;
+        }
+    
+        .list__item {
+            padding: 7px;
+        }
     }
 
-    &__list {
-        list-style: none;
-        font-family: "Mulish", sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 23px;
-    }
-
-    .list__item {
-        padding: 7px;
-    }
 }
+
 
 .awards {
     max-width: 1110px;
