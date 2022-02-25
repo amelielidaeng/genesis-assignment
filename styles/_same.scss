@@ -4,7 +4,7 @@
 }
 
 main {
-    height: 3200px;
+    height: 3840px; 
 }
 
 .menu {
@@ -88,5 +88,9 @@ a:link {
 }
 
 a:visited {
-    color: black;
+    color: rgb(70, 70, 70);
+}
+
+a:hover {
+    transform: scale(1.25);
 }
