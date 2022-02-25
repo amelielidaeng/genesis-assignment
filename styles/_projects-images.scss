@@ -9,3 +9,11 @@
 .large-image {
     padding-bottom: 35px;
 }
+
+.image__container {
+    padding-top: 40px;
+    display: flex;
+    max-width: 1110px;
+    width: 100%;
+    min-height: 400px;
+}
