@@ -4,7 +4,6 @@
     height: 450px;
     display: flex;
     justify-content: space-evenly;
-    
 
     &__one {
         max-width: 635px;
@@ -40,7 +39,7 @@
     }
 
     /*can't align them to the grid lines? 
-    don't get why? tried a bunch of stuff and googled alot*/
+    don't get why? tried a bunch of stuff and googled a lot*/
     &__list {
         max-width: 335px;
         height: 42px;

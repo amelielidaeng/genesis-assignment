@@ -34,6 +34,20 @@
         opacity: 0.8; 
         margin-top: 20px;
     }
+
+    &__button {
+        width: 125px;
+        height: 50px;
+        background-color: #4A4FF2;
+        font-family: "Mulish", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
 }
 
 .contact__form {
@@ -52,7 +66,10 @@
 .input {
     width: 475px;
     height: 37px;
-    font-family: Mulish;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-family: "Mulish", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -60,4 +77,6 @@
     color: #111111;
     mix-blend-mode: normal;
     opacity: 0.6;
+    border-style: none;
+    border-bottom: solid 1px #d8d8d8;
 }

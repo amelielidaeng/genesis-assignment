@@ -3,10 +3,6 @@
     margin: auto;
 }
 
-main {
-    height: 3400px; 
-}
-
 .menu {
     max-width: 1110px;
     display: grid;
@@ -64,17 +60,17 @@ main {
     }
 
     &__dribble {
-        grid-column: 23;
+        grid-column: 22;
         grid-row: 3;
     }
 
     &__instagram {
-        grid-column: 24;
+        grid-column: 23;
         grid-row: 3;
     }
 
     &__twitter {
-        grid-column: 25;
+        grid-column: 24;
         grid-row: 3;
     }
 }
